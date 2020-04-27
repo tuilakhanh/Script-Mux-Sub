@@ -73,7 +73,7 @@ for /l %%A IN (0,1,!taplimit!) do (
        
        ::execute muxing
        echo.
-       "!mkvmergepath!" -o "%%~nC.mkv" -S "%%~C" --forced-track "%subtitledefault%" --default-track "%subtitledefault%" --language "0:%ISOlanguage%" "%%~B" !fontstring! !chapterstring!
+       "!mkvmergepath!" -o "%%~nB.mkv" -S "%%~C" --forced-track "%subtitledefault%" --default-track "%subtitledefault%" --language "0:%ISOlanguage%" "%%~B" !fontstring! !chapterstring!
        echo.
        
        ::Delete sub raw chapter
@@ -140,7 +140,7 @@ for /l %%A IN (0,1,!taplimit!) do (
        
        ::execute muxing
        echo.
-       "!mkvmergepath!" -o "%%~nC.mkv" -S "%%~C" --forced-track "%subtitledefault%" --default-track "%subtitledefault%" --language "0:%ISOlanguage%" "%%~B" !fontstring! !chapterstring!
+       "!mkvmergepath!" -o "%%~nB.mkv" -S "%%~C" --forced-track "%subtitledefault%" --default-track "%subtitledefault%" --language "0:%ISOlanguage%" "%%~B" !fontstring! !chapterstring!
        echo.
        
        ::Delete sub raw chapter
@@ -207,7 +207,7 @@ for /l %%A IN (0,1,!taplimit!) do (
        
        ::execute muxing
        echo.
-       "!mkvmergepath!" -o "%%~nC.mkv" -S "%%~C" --forced-track "%subtitledefault%" --default-track "%subtitledefault%" --language "0:%ISOlanguage%" "%%~B" !fontstring! !chapterstring!
+       "!mkvmergepath!" -o "%%~nB.mkv" -S "%%~C" --forced-track "%subtitledefault%" --default-track "%subtitledefault%" --language "0:%ISOlanguage%" "%%~B" !fontstring! !chapterstring!
        echo.
        
        ::Delete sub raw chapter
@@ -274,7 +274,7 @@ for /l %%A IN (0,1,!taplimit!) do (
        
        ::execute muxing
        echo.
-       "!mkvmergepath!" -o "%%~nC.mkv" -S "%%~C" --forced-track "%subtitledefault%" --default-track "%subtitledefault%" --language "0:%ISOlanguage%" "%%~B" !fontstring! !chapterstring!
+       "!mkvmergepath!" -o "%%~nB.mkv" -S "%%~C" --forced-track "%subtitledefault%" --default-track "%subtitledefault%" --language "0:%ISOlanguage%" "%%~B" !fontstring! !chapterstring!
        echo.
        
        ::Delete sub raw chapter
@@ -341,7 +341,7 @@ for /l %%A IN (0,1,!taplimit!) do (
        
        ::execute muxing
        echo.
-       "!mkvmergepath!" -o "%%~nC.mkv" -S "%%~C" --forced-track "%subtitledefault%" --default-track "%subtitledefault%" --language "0:%ISOlanguage%" "%%~B" !fontstring! !chapterstring!
+       "!mkvmergepath!" -o "%%~nB.mkv" -S "%%~C" --forced-track "%subtitledefault%" --default-track "%subtitledefault%" --language "0:%ISOlanguage%" "%%~B" !fontstring! !chapterstring!
        echo.
        
        ::Delete sub raw chapter
@@ -408,7 +408,7 @@ for /l %%A IN (0,1,!taplimit!) do (
        
        ::execute muxing
        echo.
-       "!mkvmergepath!" -o "%%~nC.mkv" -S "%%~C" --forced-track "%subtitledefault%" --default-track "%subtitledefault%" --language "0:%ISOlanguage%" "%%~B" !fontstring! !chapterstring!
+       "!mkvmergepath!" -o "%%~nB.mkv" -S "%%~C" --forced-track "%subtitledefault%" --default-track "%subtitledefault%" --language "0:%ISOlanguage%" "%%~B" !fontstring! !chapterstring!
        echo.
        
        ::Delete sub raw chapter
@@ -475,7 +475,7 @@ for /l %%A IN (0,1,!taplimit!) do (
        
        ::execute muxing
        echo.
-       "!mkvmergepath!" -o "%%~nC.mkv" -S "%%~C" --forced-track "%subtitledefault%" --default-track "%subtitledefault%" --language "0:%ISOlanguage%" "%%~B" !fontstring! !chapterstring!
+       "!mkvmergepath!" -o "%%~nB.mkv" -S "%%~C" --forced-track "%subtitledefault%" --default-track "%subtitledefault%" --language "0:%ISOlanguage%" "%%~B" !fontstring! !chapterstring!
        echo.
        
        ::Delete sub raw chapter
