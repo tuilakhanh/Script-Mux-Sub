@@ -30,13 +30,13 @@ for /l %%A IN (0,1,!taplimit!) do (
  if %%A LSS 10 set count=0%%A
  
  ::With each sub
- for %%B IN ("*- !count!*.%subtitlefileformat%") do (
+ for %%B IN ("*!count!*.%subtitlefileformat%") do (
   if not "!issuccess!"=="true" (
    ::With each video extension
    for %%Z IN (%videofileformat%) do (
     if not "!issuccess!"=="true" (
      ::Search video
-     for %%C IN ("*- !count!*.%%Z") do (
+     for %%C IN ("*!count!*.%%Z") do (
       if not "!issuccess!"=="true" (
        
        ::Print sub, video name
@@ -60,12 +60,12 @@ for /l %%A IN (0,1,!taplimit!) do (
        ::Collect Chapter, just use one chapter
        set chapterstring=
        set chapterfile=
-       for %%G IN ("*- !count!*.txt") do (
+       for %%G IN ("*!count!*.txt") do (
         set chapterstring=--chapter-language vie --chapters "%%~G"
         set chapterfile=%%G
         echo     Chapter: %%~G
        )
-       for %%G IN ("*- !count!*.xml") do (
+       for %%G IN ("*!count!*.xml") do (
         set chapterstring=--chapter-language vie --chapters "%%~G"
         set chapterfile=%%G
         echo     Chapter: %%~G
