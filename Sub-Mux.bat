@@ -97,13 +97,13 @@ for /l %%A IN (0,1,!taplimit!) do (
  set count=%%A
  
  ::With each sub
- for %%B IN ("*- OVA!count!*.%subtitlefileformat%") do (
+ for %%B IN ("*OVA!count!*.%subtitlefileformat%") do (
   if not "!issuccess!"=="true" (
    ::With each video extension
    for %%Z IN (%videofileformat%) do (
     if not "!issuccess!"=="true" (
      ::Search video
-     for %%C IN ("*- OVA!count!*.%%Z") do (
+     for %%C IN ("*OVA!count!*.%%Z") do (
       if not "!issuccess!"=="true" (
        
        ::Print sub, video name
@@ -127,12 +127,12 @@ for /l %%A IN (0,1,!taplimit!) do (
        ::Collect Chapter, just use one chapter
        set chapterstring=
        set chapterfile=
-       for %%G IN ("*- OVA!count!*.txt") do (
+       for %%G IN ("*OVA!count!*.txt") do (
         set chapterstring=--chapter-language vie --chapters "%%~G"
         set chapterfile=%%G
         echo     Chapter: %%~G
        )
-       for %%G IN ("*- OVA!count!*.xml") do (
+       for %%G IN ("*OVA!count!*.xml") do (
         set chapterstring=--chapter-language vie --chapters "%%~G"
         set chapterfile=%%G
         echo     Chapter: %%~G
@@ -164,13 +164,13 @@ for /l %%A IN (0,1,!taplimit!) do (
  set count=%%A
  
  ::With only one
- for %%B IN ("*- OVA*.%subtitlefileformat%") do (
+ for %%B IN ("*OVA*.%subtitlefileformat%") do (
   if not "!issuccess!"=="true" (
    ::With each video extension
    for %%Z IN (%videofileformat%) do (
     if not "!issuccess!"=="true" (
      ::Search video
-     for %%C IN ("*- OVA*.%%Z") do (
+     for %%C IN ("*OVA*.%%Z") do (
       if not "!issuccess!"=="true" (
        
        ::Print sub, video name
@@ -194,12 +194,12 @@ for /l %%A IN (0,1,!taplimit!) do (
        ::Collect Chapter, just use one chapter
        set chapterstring=
        set chapterfile=
-       for %%G IN ("*- OVA*.txt") do (
+       for %%G IN ("*OVA*.txt") do (
         set chapterstring=--chapter-language vie --chapters "%%~G"
         set chapterfile=%%G
         echo     Chapter: %%~G
        )
-       for %%G IN ("*- OVA*.xml") do (
+       for %%G IN ("*OVA*.xml") do (
         set chapterstring=--chapter-language vie --chapters "%%~G"
         set chapterfile=%%G
         echo     Chapter: %%~G
@@ -231,13 +231,13 @@ for /l %%A IN (0,1,!taplimit!) do (
  set count=%%A
  
  ::With each sub
- for %%B IN ("*- OAD!count!*.%subtitlefileformat%") do (
+ for %%B IN ("*OAD!count!*.%subtitlefileformat%") do (
   if not "!issuccess!"=="true" (
    ::With each video extension
    for %%Z IN (%videofileformat%) do (
     if not "!issuccess!"=="true" (
      ::Search video
-     for %%C IN ("*- OAD!count!*.%%Z") do (
+     for %%C IN ("*OAD!count!*.%%Z") do (
       if not "!issuccess!"=="true" (
        
        ::Print sub, video name
@@ -261,12 +261,12 @@ for /l %%A IN (0,1,!taplimit!) do (
        ::Collect Chapter, just use one chapter
        set chapterstring=
        set chapterfile=
-       for %%G IN ("*- OAD!count!*.txt") do (
+       for %%G IN ("*OAD!count!*.txt") do (
         set chapterstring=--chapter-language vie --chapters "%%~G"
         set chapterfile=%%G
         echo     Chapter: %%~G
        )
-       for %%G IN ("*- OAD!count!*.xml") do (
+       for %%G IN ("*OAD!count!*.xml") do (
         set chapterstring=--chapter-language vie --chapters "%%~G"
         set chapterfile=%%G
         echo     Chapter: %%~G
@@ -298,13 +298,13 @@ for /l %%A IN (0,1,!taplimit!) do (
  set count=%%A
  
  ::With only one
- for %%B IN ("*- OAD*.%subtitlefileformat%") do (
+ for %%B IN ("*OAD*.%subtitlefileformat%") do (
   if not "!issuccess!"=="true" (
    ::With each video extension
    for %%Z IN (%videofileformat%) do (
     if not "!issuccess!"=="true" (
      ::Search video
-     for %%C IN ("*- OAD*.%%Z") do (
+     for %%C IN ("*OAD*.%%Z") do (
       if not "!issuccess!"=="true" (
        
        ::Print sub, video name
@@ -328,12 +328,12 @@ for /l %%A IN (0,1,!taplimit!) do (
        ::Collect Chapter, just use one chapter
        set chapterstring=
        set chapterfile=
-       for %%G IN ("*- OAD*.txt") do (
+       for %%G IN ("*OAD*.txt") do (
         set chapterstring=--chapter-language vie --chapters "%%~G"
         set chapterfile=%%G
         echo     Chapter: %%~G
        )
-       for %%G IN ("*- OAD*.xml") do (
+       for %%G IN ("*OAD*.xml") do (
         set chapterstring=--chapter-language vie --chapters "%%~G"
         set chapterfile=%%G
         echo     Chapter: %%~G
@@ -365,13 +365,13 @@ for /l %%A IN (0,1,!taplimit!) do (
  set count=%%A
  
  ::With each sub
- for %%B IN ("*- SP!count!*.%subtitlefileformat%") do (
+ for %%B IN ("*SP!count!*.%subtitlefileformat%") do (
   if not "!issuccess!"=="true" (
    ::With each video extension
    for %%Z IN (%videofileformat%) do (
     if not "!issuccess!"=="true" (
      ::Search video
-     for %%C IN ("*- SP!count!*.%%Z") do (
+     for %%C IN ("*SP!count!*.%%Z") do (
       if not "!issuccess!"=="true" (
        
        ::Print sub, video name
@@ -395,12 +395,12 @@ for /l %%A IN (0,1,!taplimit!) do (
        ::Collect Chapter, just use one chapter
        set chapterstring=
        set chapterfile=
-       for %%G IN ("*- SP!count!*.txt") do (
+       for %%G IN ("*SP!count!*.txt") do (
         set chapterstring=--chapter-language vie --chapters "%%~G"
         set chapterfile=%%G
         echo     Chapter: %%~G
        )
-       for %%G IN ("*- SP!count!*.xml") do (
+       for %%G IN ("*SP!count!*.xml") do (
         set chapterstring=--chapter-language vie --chapters "%%~G"
         set chapterfile=%%G
         echo     Chapter: %%~G
@@ -432,13 +432,13 @@ for /l %%A IN (0,1,!taplimit!) do (
  set count=%%A
  
  ::With only one
- for %%B IN ("*- SP*.%subtitlefileformat%") do (
+ for %%B IN ("*SP*.%subtitlefileformat%") do (
   if not "!issuccess!"=="true" (
    ::With each video extension
    for %%Z IN (%videofileformat%) do (
     if not "!issuccess!"=="true" (
      ::Search video
-     for %%C IN ("*- SP*.%%Z") do (
+     for %%C IN ("*SP*.%%Z") do (
       if not "!issuccess!"=="true" (
        
        ::Print sub, video name
@@ -462,12 +462,12 @@ for /l %%A IN (0,1,!taplimit!) do (
        ::Collect Chapter, just use one chapter
        set chapterstring=
        set chapterfile=
-       for %%G IN ("*- SP*.txt") do (
+       for %%G IN ("*SP*.txt") do (
         set chapterstring=--chapter-language vie --chapters "%%~G"
         set chapterfile=%%G
         echo     Chapter: %%~G
        )
-       for %%G IN ("*- SP*.xml") do (
+       for %%G IN ("*SP*.xml") do (
         set chapterstring=--chapter-language vie --chapters "%%~G"
         set chapterfile=%%G
         echo     Chapter: %%~G
