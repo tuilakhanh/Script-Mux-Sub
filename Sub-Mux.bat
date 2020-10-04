@@ -7,7 +7,7 @@ echo   version 2.0 by tuilakhanh
 ::donot process with the second raw
 echo ----------------------------------------------------------------------
 echo.
-set videofileformat=m2ts mp4 mkv avi ts wmv flv flv mpeg mpeg 3gp webm vob ogv ogg drc gif gifv mng mov qt yuv rm rmvb asf m4p m4v mpg mp2 mpe mpv mpg m2v m4v svi 3g2 mxf roq nsv flv f4v f4p f4a f4b olshiro ket korin
+set videofileformat=m2ts mp4 mkv avi ts wmv flv flv mpeg mpeg 3gp webm vob ogv ogg drc gif gifv mng mov qt yuv rm rmvb asf m4p m4v mpg mp2 mpe mpv mpg m2v m4v svi 3g2 mxf roq nsv flv f4v f4p f4a f4b
 ::set videofileformat=mkv
 ::set subtitlefileformat=ass srt ssa pgs
 set subtitlefileformat=ass
